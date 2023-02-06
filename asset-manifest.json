@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/HerbMarket/static/css/main.5fe5f6f6.css",
+    "main.js": "/HerbMarket/static/js/main.4771579e.js",
+    "static/media/YandexSansText-Thin.eot": "/HerbMarket/static/media/YandexSansText-Thin.e18e12d5d4439eb6af40.eot",
+    "static/media/YandexSansText-Thin.ttf": "/HerbMarket/static/media/YandexSansText-Thin.cb30a838525420b2e299.ttf",
+    "static/media/YandexSansText-Regular.eot": "/HerbMarket/static/media/YandexSansText-Regular.ba6d4711d8f65666b6e0.eot",
+    "static/media/YandexSansText-Regular.ttf": "/HerbMarket/static/media/YandexSansText-Regular.1a3aa4c8d33c3b216bb3.ttf",
+    "static/media/YandexSansDisplay-Bold.eot": "/HerbMarket/static/media/YandexSansDisplay-Bold.8e0fd19c18af51e12674.eot",
+    "static/media/YandexSansDisplay-Bold.ttf": "/HerbMarket/static/media/YandexSansDisplay-Bold.54cceaa0fa5c4fa6e5c1.ttf",
+    "static/media/YandexSansDisplay-Regular.eot": "/HerbMarket/static/media/YandexSansDisplay-Regular.d3adf3571f3a8ab69082.eot",
+    "static/media/YandexSansDisplay-Regular.ttf": "/HerbMarket/static/media/YandexSansDisplay-Regular.f7b0cd2fb662aa10f1b2.ttf",
+    "static/media/YandexSansText-Thin.woff": "/HerbMarket/static/media/YandexSansText-Thin.7816ea3c2e1552397b56.woff",
+    "static/media/YandexSansText-Regular.woff": "/HerbMarket/static/media/YandexSansText-Regular.1c422f2ef1e510532200.woff",
+    "static/media/YandexSansDisplay-Bold.woff": "/HerbMarket/static/media/YandexSansDisplay-Bold.138d9a1c55f27a3b5486.woff",
+    "static/media/YandexSansDisplay-Regular.woff": "/HerbMarket/static/media/YandexSansDisplay-Regular.24a20857e5c6d4c4cfa0.woff",
+    "static/media/YandexSansText-Regular.woff2": "/HerbMarket/static/media/YandexSansText-Regular.fd627cc781ea46efb18f.woff2",
+    "static/media/YandexSansText-Thin.woff2": "/HerbMarket/static/media/YandexSansText-Thin.96a502b3a4a9218ef6c5.woff2",
+    "static/media/YandexSansDisplay-Bold.woff2": "/HerbMarket/static/media/YandexSansDisplay-Bold.f502192c0c4f8b5ba5cf.woff2",
+    "static/media/YandexSansDisplay-Regular.woff2": "/HerbMarket/static/media/YandexSansDisplay-Regular.29559e64b30c169b8b20.woff2",
+    "static/media/omega800Full.png": "/HerbMarket/static/media/omega800Full.f8d58efceed931065568.png",
+    "static/media/omega3.png": "/HerbMarket/static/media/omega3.efb213c747c504ef3093.png",
+    "static/media/omega800.png": "/HerbMarket/static/media/omega800.27fa9bdbb9abdfe7553b.png",
+    "static/media/vc2.png": "/HerbMarket/static/media/vc2.e37e8eea622b7f5bea22.png",
+    "static/media/omega800Min.png": "/HerbMarket/static/media/omega800Min.dbe90935b40929746d65.png",
+    "static/media/vitaminC2.png": "/HerbMarket/static/media/vitaminC2.419ec3fd78f61d83bc20.png",
+    "index.html": "/HerbMarket/index.html",
+    "main.5fe5f6f6.css.map": "/HerbMarket/static/css/main.5fe5f6f6.css.map",
+    "main.4771579e.js.map": "/HerbMarket/static/js/main.4771579e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fe5f6f6.css",
+    "static/js/main.4771579e.js"
+  ]
+}
