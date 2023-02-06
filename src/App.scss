@@ -1,0 +1,299 @@
+@import "fonts.scss";
+
+%text-style {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 90%;
+  color: #FFFFFF;
+}
+
+%text-style-ys-text {
+  font-family: 'YS Text';
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+
+}
+
+.App {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  min-height: 180px;
+  background-color: #558324;
+  margin: 5px;
+  min-width: 300px;
+  font-size: 55px;
+}
+
+.containerBannerHerbMarket {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  @extend .containerBanner;
+
+  .HerbMarketText {
+    @extend %text-style;
+    width: 50%;
+  }
+
+  .HerbMarketContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 180px;
+  }
+
+  .traced1 {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+  }
+
+  .containerImg {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+
+  .ImgContentMax {
+    position: relative;
+    z-index: 1;
+    object-fit: contain;
+  }
+
+  .tracedContainer {
+    display: inline-block;
+  }
+
+  .ImgContentMin {
+    @extend .ImgContentMax;
+    display: none;
+  }
+
+  @media(max-width: 800px) {
+    font-size: 35px;
+
+    .ImgContentMax {
+      display: none;
+    }
+
+    .ImgContentMin {
+      display: block;
+    }
+
+    .tracedContainer {
+      position: absolute;
+      bottom: 50%;
+      right: 55%;
+      transform: rotate(-100deg);
+    }
+  }
+}
+
+.containerBannerVitamins {
+  @extend .containerBannerHerbMarket;
+
+  .Omega3VitaminsContainer {
+    @extend .HerbMarketContainer;
+  }
+
+  .vitaminsText {
+    @extend %text-style;
+    font-size: 33px;
+  }
+
+  @media (max-width: 800px) {
+    .vitaminsText {
+      font-size: 26px
+    }
+
+  }
+}
+
+
+
+.containerBannerOmega800 {
+  @extend .containerBannerHerbMarket;
+
+  .wrapperOmega800Descriptions {
+    @extend .HerbMarketContainer;
+  }
+
+  .Omega800ContainerText {
+    @extend %text-style-ys-text;
+    display: flex;
+    align-items: center;
+  }
+
+  .container0 {
+    opacity: 0.7;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 5px;
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.9466px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+  }
+
+  .containerContentOmega800 {
+    padding-left: 10px;
+  }
+
+  .containerTextHerbMarket {
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 90%;
+    letter-spacing: -0.02em;
+  }
+
+  .containerDiscriptionOmega800 {
+    font-size: 17px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+  }
+
+  .omega800Img {
+    position: relative;
+    z-index: 1;
+    left: 5px;
+  }
+
+  @media (max-width: 800px) {
+    .tracedContainerOmega800 {
+      display: none;
+    }
+
+    .omega800Img {
+      display: none;
+    }
+
+  }
+}
+
+.containerBannerStatic {
+  @extend .containerBanner;
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .logoMarketStatic {
+    margin-top: 30px;
+    width: 100%;
+
+    .logoMarketStaticImg {
+      width: 80%;
+    }
+  }
+
+  .HerbMarketTextStatic {
+    @extend %text-style;
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .containerImgStatic {
+    display: flex;
+    align-items: center;
+  }
+
+  .tracedContainerStatic {
+    transform: translate(80px, 0px) rotate(-90deg);
+    z-index: 0;
+  }
+
+  .omega800FullStaticContainer {
+    margin-right: 20px;
+    z-index: 1;
+
+    .omega800FullStaticContainerImg {
+      filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
+    }
+
+  }
+
+  .Omega800ContainerTextStatic {
+    @extend %text-style-ys-text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -70px;
+
+    .containerContentOmega800Static {
+      width: 80%;
+    }
+
+    .container0Static {
+      font-family: 'YS Text';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21.4443px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      border: 2px solid;
+      width: fit-content;
+      border-radius: 50%;
+      padding: 8px;
+    }
+
+    .containerTextHerbMarketStatic {
+      margin-top: 15px;
+      margin-bottom: 11px;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 8px;
+      text-align: left;
+
+    }
+
+    .containerDiscriptionOmega800Static {
+      text-align: left;
+      font-weight: 300;
+      font-size: 28px;
+      line-height: 100%;
+      letter-spacing: -0.8px;
+      text-transform: uppercase;
+    }
+  }
+}

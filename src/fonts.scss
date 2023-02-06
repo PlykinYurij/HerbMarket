@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'YS Display';
+    src: url('fonts/YandexSansDisplay-Regular.eot');
+    src: local('fonts/Yandex Sans Display Regular'), local('fonts/YandexSansDisplay-Regular'),
+        url('fonts/YandexSansDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/YandexSansDisplay-Regular.woff2') format('woff2'),
+        url('fonts/YandexSansDisplay-Regular.woff') format('woff'),
+        url('fonts/YandexSansDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'YS Display';
+    src: url('fonts/YandexSansDisplay-Bold.eot');
+    src: local('fonts/Yandex Sans Display Bold'), local('fonts/YandexSansDisplay-Bold'),
+        url('fonts/YandexSansDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/YandexSansDisplay-Bold.woff2') format('woff2'),
+        url('fonts/YandexSansDisplay-Bold.woff') format('woff'),
+        url('fonts/YandexSansDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YS Text';
+    src: url('fonts/YandexSansText-Thin.eot');
+    src: local('fonts/Yandex Sans Text Thin'), local('fonts/YandexSansText-Thin'),
+        url('fonts/YandexSansText-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/YandexSansText-Thin.woff2') format('woff2'),
+        url('fonts/YandexSansText-Thin.woff') format('woff'),
+        url('fonts/YandexSansText-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YS Text';
+    src: url('fonts/YandexSansText-Regular.eot');
+    src: local('fonts/Yandex Sans Text Regular'), local('fonts/YandexSansText-Regular'),
+        url('fonts/YandexSansText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/YandexSansText-Regular.woff2') format('woff2'),
+        url('fonts/YandexSansText-Regular.woff') format('woff'),
+        url('fonts/YandexSansText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
